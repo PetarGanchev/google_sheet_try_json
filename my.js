@@ -1,6 +1,5 @@
 function testGS() {
-    const url = "https://script.google.com/macros/s/AKfycbxIn1wE8fIU2xo0CNn48r9FQcI-_DKKAE4Ux2e3iyAE/dev"
-
+    const url = "https://script.google.com/macros/s/AKfycbyelJ175qS9tsjJQdn8uDwklD-n-fMR29OfneWf5c7Db3iM33Cv4eQ-Z7_HsG4GuV1r4A/exec"
     fetch(url)
         .then(d => d.json())
         .then(d => {
